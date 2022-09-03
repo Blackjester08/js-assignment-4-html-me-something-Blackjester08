@@ -4,31 +4,50 @@
     text-align: left;
     display: block;
   }
-  
-  .title {
+
+.title {
     text-align: center;
     font-family: Arial;
-  }
-  
-  body {
-    background-color: lightgray;
+}
+
+body {
+    background-color: lightgreen;
     margin: 1em;
     padding: 1em;
+}
+
+.column {
+    float: left;
+    padding: 1pt;
+    width: 33%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
-  img {
-      border-radius: 50%;
-      max-width: 40%;
-      min-width: 40%;
-      height: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
-  
-  p {
+
+img {
+    border-radius: 50%;
+    max-width: 28%;
+    min-width: 20%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
     padding-left: 2em;
     padding-right: 2em;
     margin: 1em;
     font-size: 20px;
-  }
-  
+}
+
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+    font-size: 20px;
+
+}
