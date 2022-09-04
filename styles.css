@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: lightgreen;
+    background-color: rgb(144, 208, 238);
     margin: 8px;
     display:block;
     padding: 1em;
@@ -73,5 +73,10 @@ h1{
     color: rgb(178, 34, 68);}
 
 #mainHeading{
-    color:red
+    color:red;
+    text-align: center;
+}
+
+#testP{
+    color:green
 }
